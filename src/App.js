@@ -11,7 +11,7 @@ const App =  () =>{
     ]);
     
     const [showIncomplete, setShowIncomplete] = useState(true   );
-    const [newTask, setNewTask] = useState("123");
+    const [newTask, setNewTask] = useState("");
     const handleSubmit = (e)=>{
         e.preventDefault();
         if(newTask){
